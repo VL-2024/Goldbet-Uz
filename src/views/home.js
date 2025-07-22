@@ -41,7 +41,7 @@ const Home = (props) => {
             <span className="home-text104">Контакты</span>
           </Fragment>
         }
-        logoSrc="/logo_gb_uz-1500h.png"
+        logoSrc={`${process.env.PUBLIC_URL}/logo_gb_uz-1500h.png`}
         link5Url="#Footer15"
       ></Navbar3>
       <Banner3
@@ -1152,7 +1152,7 @@ const Home = (props) => {
             <span className="home-text555">Contact Us</span>
           </Fragment>
         }
-        logoSrc="/logo_gb_uz-1500h.png"
+        logoSrc={`${process.env.PUBLIC_URL}/logo_gb_uz-1500h.png`}
         content1={
           <Fragment>
             <span className="home-text556">

@@ -16,7 +16,7 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <Router basename="/Goldbet-React">
+    <Router basename={process.env.PUBLIC_URL || "/"}>
       <Switch>
         <Route component={Page} exact path="/page" />
         <Route component={Page1} exact path="/1" />

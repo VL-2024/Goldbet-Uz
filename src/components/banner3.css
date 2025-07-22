@@ -1,5 +1,6 @@
 .banner3-container1 {
   gap: var(--dl-layout-space-unit);
+  height: 590px;
   display: flex;
   position: relative;
   align-items: center;
