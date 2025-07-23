@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Goldbet-Uz/static/css/main.6e726463.css",
-    "main.js": "/Goldbet-Uz/static/js/main.1e3725a0.js",
+    "main.css": "/Goldbet-Uz/static/css/main.e05f411c.css",
+    "main.js": "/Goldbet-Uz/static/js/main.37b8a96a.js",
     "index.html": "/Goldbet-Uz/index.html",
-    "main.6e726463.css.map": "/Goldbet-Uz/static/css/main.6e726463.css.map",
-    "main.1e3725a0.js.map": "/Goldbet-Uz/static/js/main.1e3725a0.js.map"
+    "main.e05f411c.css.map": "/Goldbet-Uz/static/css/main.e05f411c.css.map",
+    "main.37b8a96a.js.map": "/Goldbet-Uz/static/js/main.37b8a96a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e726463.css",
-    "static/js/main.1e3725a0.js"
+    "static/css/main.e05f411c.css",
+    "static/js/main.37b8a96a.js"
   ]
 }
