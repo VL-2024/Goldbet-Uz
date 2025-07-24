@@ -33,15 +33,7 @@ const Banner3 = (props) => {
             )}
           </h3>
         </div>
-        <button type="button" className="thq-button-filled">
-          <span>
-            {props.action1 ?? (
-              <Fragment>
-                <span className="banner3-text5">Shop Now</span>
-              </Fragment>
-            )}
-          </span>
-        </button>
+        
       </div>
     </div>
   )

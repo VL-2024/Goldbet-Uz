@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Goldbet-React/static/css/main.4c4ebc51.css",
-    "main.js": "/Goldbet-React/static/js/main.e211c9b3.js",
-    "index.html": "/Goldbet-React/index.html",
-    "main.4c4ebc51.css.map": "/Goldbet-React/static/css/main.4c4ebc51.css.map",
-    "main.e211c9b3.js.map": "/Goldbet-React/static/js/main.e211c9b3.js.map"
+    "main.css": "./static/css/main.e05f411c.css",
+    "main.js": "./static/js/main.390f0a0b.js",
+    "index.html": "./index.html",
+    "main.e05f411c.css.map": "./static/css/main.e05f411c.css.map",
+    "main.390f0a0b.js.map": "./static/js/main.390f0a0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c4ebc51.css",
-    "static/js/main.e211c9b3.js"
+    "static/css/main.e05f411c.css",
+    "static/js/main.390f0a0b.js"
   ]
 }

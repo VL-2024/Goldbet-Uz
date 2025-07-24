@@ -40,7 +40,7 @@ const Page = (props) => {
             <span className="page-text104">Контакты</span>
           </Fragment>
         }
-        logoSrc={`${process.env.PUBLIC_URL}/logo_gb_uz-1500h.png`}
+        logoSrc={process.env.PUBLIC_URL + "/logo_gb_uz-1500h.png"}
         link5Url="#Footer15"
       ></Navbar3>
       <hr className="page-separator1"></hr>
@@ -322,7 +322,7 @@ const Page = (props) => {
             <span className="page-text238">Contact Us</span>
           </Fragment>
         }
-        logoSrc={`${process.env.PUBLIC_URL}/logo_gb_uz-1500h.png`}
+        logoSrc={process.env.PUBLIC_URL + "/logo_gb_uz-1500h.png"}
         content1={
           <Fragment>
             <span className="page-text239">

@@ -41,7 +41,7 @@ const Home = (props) => {
             <span className="home-text104">Контакты</span>
           </Fragment>
         }
-        logoSrc={`${process.env.PUBLIC_URL}/logo_gb_uz-1500h.png`}
+        logoSrc={process.env.PUBLIC_URL + "/logo_gb_uz-1500h.png"}
         link5Url="#Footer15"
       ></Navbar3>
       <Banner3
@@ -62,7 +62,7 @@ const Home = (props) => {
             <span className="home-text107">GoldBET</span>
           </Fragment>
         }
-        image1Src={`${process.env.PUBLIC_URL}/soccer%20player%20in%20action-1500w.jpg`}
+        image1Src={process.env.PUBLIC_URL + "/soccer%20player%20in%20action-1500w.jpg"}
         rootClassName="banner3root-class-name"
       ></Banner3>
       <ContentList6
@@ -1147,12 +1147,13 @@ const Home = (props) => {
         }
       ></ContentList6>
       <Footer15
+  logoSrc={process.env.PUBLIC_URL + "/logo_gb_uz-1500h.png"}
         action1={
           <Fragment>
             <span className="home-text555">Contact Us</span>
           </Fragment>
         }
-        logoSrc={`${process.env.PUBLIC_URL}/logo_gb_uz-1500h.png`}
+        logoSrc={process.env.PUBLIC_URL + "/logo_gb_uz-1500h.png"}
         content1={
           <Fragment>
             <span className="home-text556">

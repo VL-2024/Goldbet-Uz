@@ -19,7 +19,7 @@ const Navbar3 = (props) => {
             <Link to="/" className="navbar3-link11 thq-body-small thq-link">
               {props.link1 ?? (
                 <Fragment>
-                  <span className="navbar3-text5">О нас</span>
+                  <span className="navbar3-text4">О нас</span>
                 </Fragment>
               )}
             </Link>
@@ -93,41 +93,37 @@ const Navbar3 = (props) => {
               </div>
             </div>
             <nav className="navbar3-links2">
-              <a href={props.link1Url} className="thq-body-small thq-link">
+              <Link to="/" className="navbar3-link12 thq-body-small thq-link">
                 {props.link1 ?? (
                   <Fragment>
-                    <span className="navbar3-text5">О нас</span>
+                    <span className="navbar3-text4">О нас</span>
                   </Fragment>
                 )}
-              </a>
-              <a href={props.link2Url} className="thq-body-small thq-link">
+              </Link>
+              <Link
+                to="/page"
+                className="navbar3-link22 thq-body-small thq-link"
+              >
                 {props.link2 ?? (
                   <Fragment>
                     <span className="navbar3-text2">Указы и документы</span>
                   </Fragment>
                 )}
-              </a>
-              <a href={props.link3Url} className="thq-body-small thq-link">
+              </Link>
+              <Link to="/1" className="navbar3-link32 thq-body-small thq-link">
                 {props.link3 ?? (
                   <Fragment>
                     <span className="navbar3-text1">Получение лицензии</span>
                   </Fragment>
                 )}
-              </a>
-              <a href={props.link4Url} className="thq-body-small thq-link">
-                {props.link4 ?? (
-                  <Fragment>
-                    <span className="navbar3-text4">Portfolio</span>
-                  </Fragment>
-                )}
-              </a>
-              <a href={props.link5Url} className="thq-body-small thq-link">
+              </Link>
+              <Link to="/" className="navbar3-link52 thq-body-small thq-link">
                 {props.link5 ?? (
                   <Fragment>
                     <span className="navbar3-text3">Контакты</span>
                   </Fragment>
                 )}
-              </a>
+              </Link>
             </nav>
           </div>
           <div className="navbar3-icon-group2">
@@ -158,35 +154,24 @@ const Navbar3 = (props) => {
 
 Navbar3.defaultProps = {
   rootClassName: '',
-  link3Url: 'https://goldbet.uz',
   link3: undefined,
   link5Url: 'https://www.teleporthq.io',
   link2: undefined,
-  link2Url: 'https://www.teleporthq.io',
   link5: undefined,
-  link4: undefined,
   link1: undefined,
-  link4Url: 'https://www.teleporthq.io',
   logoAlt: 'Company Logo',
-  logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
-  link1Url: 'https://www.teleporthq.io',
+  logoSrc: '/logo_gb_uz-200h.png',
 }
 
 Navbar3.propTypes = {
   rootClassName: PropTypes.string,
-  link3Url: PropTypes.string,
   link3: PropTypes.element,
   link5Url: PropTypes.string,
   link2: PropTypes.element,
-  link2Url: PropTypes.string,
   link5: PropTypes.element,
-  link4: PropTypes.element,
   link1: PropTypes.element,
-  link4Url: PropTypes.string,
   logoAlt: PropTypes.string,
   logoSrc: PropTypes.string,
-  link1Url: PropTypes.string,
 }
 
 export default Navbar3
